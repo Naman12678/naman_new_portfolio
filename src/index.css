@@ -1,0 +1,28 @@
+@import "tailwindcss";
+body {
+    @apply bg-gray-800 text-gray-300 font-sans;
+  }
+  
+  h1, h2, h3 {
+    @apply text-white;
+  }
+  
+  ul {
+    @apply list-inside list-disc;
+  }
+  
+  a {
+    @apply text-gray-400 hover:text-white transition;
+  }
+  
+  /* Tailwind CSS will be used to extend this functionality. */
+  body {
+    font-family: 'Cascadia Code', monospace;
+    background-color: #0d1117; /* Darker background */
+    color: #c9d1d9; /* Brighter text color */
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  

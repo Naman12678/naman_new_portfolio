@@ -6,7 +6,9 @@ const Sidebar = ({ openFolder }) => {
 
   const folders = [
     { name: '_hello', icon: <FaFileAlt className="text-teal-400" /> },
+    { name: '_about-me', icon: <FaFileAlt className="text-teal-400" /> },
     { name: '_education', icon: <FaFileAlt className="text-blue-400" /> },
+    { name: '_skills', icon: <FaFileAlt className="text-teal-400" /> },
     { name: '_projects', icon: <FaFileAlt className="text-green-400" /> },
     { name: '_contact-me', icon: <FaFileAlt className="text-purple-400" /> },
   ];

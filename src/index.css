@@ -1,6 +1,7 @@
 @import "tailwindcss";
 body {
     @apply bg-gray-800 text-gray-300 font-sans;
+    overflow-x: hidden;
   }
   
   h1, h2, h3 {
